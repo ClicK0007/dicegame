@@ -1,0 +1,74 @@
+body{
+    background-color: #222831;
+}
+
+.container-fluid{
+    text-align: center;
+    padding: 3% 3%;
+}
+
+/* Headings */
+
+h1,.btn {
+    font-family: 'Orbitron', sans-serif;
+    color: #EEEEEE;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: 900;
+    padding-bottom: 3%;
+}
+
+/* Image */
+
+.image{
+    width: 50%;
+    padding: 3%;
+    margin: 1% 0;
+}
+
+/* Button */
+
+.btn-play{
+    background-color: #393E46;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 0 5%;
+    text-decoration: none;
+}
+
+.btn-play:hover{
+    text-decoration: none;
+}
+
+.btn-input{
+    background-color: #222831;
+    font-weight: 700;
+    font-size: 2rem;
+    width: 50%;
+}
+
+.btn-input:hover{
+    background-color: #393E46;
+}
+
+
+@media (max-width: 600px) {
+    h1{
+        padding: 10% 1%;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .btn-input{
+        width: 60%;
+        font-size: large;
+    }
+
+    .image{
+        padding: 30% 5% 50%;
+        width: 90%;
+    }
+}
+
