@@ -62,13 +62,13 @@ h1{
     }
 
     .btn-input{
-        width: 60%;
+        width: 90%;
         font-size: large;
     }
 
     .image{
-        padding: 30% 5% 50%;
-        width: 90%;
+        padding: 50% 5% 50%;
+        width: 100%;
     }
 }
 
